@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Barcode Scanner</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="msgNameErrorEmpty">Please enter a Name</string>
+    <string name="msgEmailErrorEmpty">Please enter a valid E-mail</string>
+    <string name="msgPasswordErrorEmpty">Please enter a Password</string>
+    <string name="msgAgeErrorEmpty">Please enter an Age</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="account_type">Account Type</string>
+    <string name="creator">Creator</string>
+    <string name="user">User</string>
+    <string name="logout">Logout</string>
+    <string name="scan">Scan</string>
+    <string name="submit">Submit</string>
+    <string name="barcode_number">Barcode Number</string>
+    <string name="back">Back</string>
+    <string name="scan_button">Scan Button</string>
+    <string name="item_name">Item Name</string>
+    <string name="retail_price_usd">Retail Price (USD)</string>
+    <string name="select">Select</string>
+    <string name="selected_image">Selected Image</string>
+</resources>
