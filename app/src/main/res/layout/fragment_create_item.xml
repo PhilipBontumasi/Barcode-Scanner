@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateItemFragment" >
+
+    <Button
+        android:id="@+id/btnSubmitCI"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="424dp"
+        android:text="@string/submit"
+        app:layout_constraintStart_toEndOf="@+id/btnBackCI"
+        app:layout_constraintTop_toBottomOf="@+id/imageBarcodeCI" />
+
+    <EditText
+        android:id="@+id/editTextBarcodeCI"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="@string/barcode_number"
+        android:inputType="number|textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/imageBarcodeCI"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/barcode"
+        app:layout_constraintStart_toEndOf="@+id/editTextBarcodeCI"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#000000"
+        android:contentDescription="@string/scan_button" />
+
+    <Button
+        android:id="@+id/btnBackCI"
+        android:layout_width="129dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="424dp"
+        android:text="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBarcodeCI" />
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/item_name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBarcodeCI"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextItemPrice"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/retail_price_usd"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextItemName"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnSelectCI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/select"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProduct" />
+
+    <ImageButton
+        android:id="@+id/imageProduct"
+        android:layout_width="193dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="29dp"
+        android:contentDescription="@string/selected_image"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextItemPrice" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
