@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551826975774",
+    "project_id": "barcodescanner-fede5",
+    "storage_bucket": "barcodescanner-fede5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551826975774:android:dea0dee94a23a33a1f520f",
+        "android_client_info": {
+          "package_name": "com.example.barcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551826975774-ieh8jmsh0okvpmv16c8r43h5fo9e1ek4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwv7m0VHf0mkayQTdtZbeVjpx04Mzgn-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551826975774-ieh8jmsh0okvpmv16c8r43h5fo9e1ek4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
